@@ -50,6 +50,10 @@ html{
     list-style: none;
     font-family: var(--secondary-font);
 }
+.m-box1 box{
+    background-color: var(--secondary-color);
+    
+}
 
 @media (min-width:480px){
 }
