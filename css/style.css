@@ -48,7 +48,6 @@ html{
     display: flex;
     align-items: center;
     list-style: none;
-    font-family: var(--secondary-font);
 }
 .nav-menu-ul li{
     padding-left: 1rem;
