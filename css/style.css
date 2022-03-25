@@ -4,6 +4,8 @@
     --terciary-color: #f5f5f5;
     --primary-font: 'Dancing Script', cursive;
     --secondary-font: 'Montserrat', sans-serif;
+    --font-size-tittle: 3rem;
+    --font-size-subtittle: 2rem;
 }
 *{
     box-sizing: border-box;
@@ -70,28 +72,43 @@ html{
     width: 100%;
     height: 100%;
 }
-.m-box2{
+.box{
     width: 100%;
-    height: 25rem;
+    height: auto;
     background-color: var(--terciary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
+}
+.box .tittle{
+    font-family: var(--primary-font);
+    font-size: var(--font-size-tittle);
+} 
+.box .sub-tittle{
+    font-family: var(--primary-font);
+    font-size: var(--font-size-subtittle);
+} 
+.m-box2{
+    color: var(--secondary-color);
 }
 .m-b2-figure{
     width: 80%;
     height: 80%;
-    display: flex;
-    justify-content: center;
+    display: contents;
 }
 .m-b2-figure img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .m-box3{
-    width: 100%;
-    height: 25rem;
     background-color: var(--secondary-color);
+    color: var(--terciary-color);
+}
+.m-b3-figure{
+    width: 80%;
+    height: 80%;
+    display: contents;
 }
 @media (min-width:480px){
     
