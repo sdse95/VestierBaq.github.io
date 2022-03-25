@@ -6,6 +6,7 @@
     --secondary-font: 'Montserrat', sans-serif;
     --font-size-tittle: 3rem;
     --font-size-subtittle: 2rem;
+    --font-size-p:1.5rem;
 }
 *{
     box-sizing: border-box;
@@ -20,17 +21,18 @@ html{
     height: auto;
     width: 100%;
     background-attachment: fixed;
+    background-color: var(--terciary-color);
 }
 .header-promos{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--terciary-color);
+    background-color: var(--secondary-color);
 }
 .h-h-promos{
     font-family: var(--primary-font);
-    font-size: 2rem;
-    color: var();
+    font-size: var(--font-size-p);
+    margin: 0;
 }
 .h-l-figure{
     width: 25rem;
@@ -51,12 +53,12 @@ html{
     display: flex;
     align-items: center;
     list-style: none;
+    color: var(--primary-color);
     justify-content: space-evenly;
 }
 .n-m-search{
-    padding-top: 0.5rem;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .d-block{
   width: 100%;
@@ -92,12 +94,12 @@ html{
 .m-box2{
     color: var(--secondary-color);
 }
-.m-b2-figure{
+.m-b-f{
     width: 80%;
     height: 80%;
     display: contents;
 }
-.m-b2-figure img{
+.m-b-f img{
     width: 250px;
     height: 250px;
 }
@@ -105,10 +107,16 @@ html{
     background-color: var(--secondary-color);
     color: var(--terciary-color);
 }
-.m-b3-figure{
-    width: 80%;
-    height: 80%;
-    display: contents;
+.m-box4{
+    color: var(--secondary-color);
+}
+.f-menu{
+    background-color: var(--secondary-color);
+}
+.f-l-ul{
+    font-family: var(--secondary-font);
+    list-style: none;
+    color: var(--terciary-color);
 }
 @media (min-width:480px){
     
