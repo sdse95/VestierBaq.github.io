@@ -53,8 +53,13 @@ html{
     display: flex;
     align-items: center;
     list-style: none;
-    color: var(--primary-color);
     justify-content: space-evenly;
+}
+.nav-menu-ul a{
+    text-decoration:none;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: var(--font-size-p);
 }
 .n-m-search{
     width: 2.5rem;
@@ -64,23 +69,14 @@ html{
   width: 100%;
   height: 100%;
 }
-
 .main{
     display: flex;
     flex-wrap: wrap;
 }
-
 .m-box1{
     width: 100%;
     height: 100%;
 }
-<<<<<<< HEAD
-
-
-
-
-
-=======
 .box{
     width: 100%;
     height: auto;
