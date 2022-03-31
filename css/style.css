@@ -71,7 +71,7 @@ html{
 }
 .main{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .box{
     width: 100%;
