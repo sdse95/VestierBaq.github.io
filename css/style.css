@@ -74,7 +74,7 @@ html{
     flex-wrap: wrap;
 }
 .box{
-    width: 100%;
+    
     height: auto;
     background-color: var(--terciary-color);
     display: flex;
@@ -122,9 +122,20 @@ html{
 }
 
 @media (min-width:480px){
-    
-
-
+    .main{
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 100%;
+    }
+    .m-b-f img{
+        width: 80%;
+        height: 80%;
+    }
+    .carousel-item.active div{
+        height: 100%;
+    }
 }
 @media (min-width:600px){
 
