@@ -71,7 +71,7 @@ html{
 }
 .main{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .box{
     width: 100%;
@@ -117,7 +117,9 @@ html{
     list-style: none;
     color: var(--terciary-color);
 }
-
+.carousel{
+    width: 100%;
+}
 
 @media (min-width:480px){
     
