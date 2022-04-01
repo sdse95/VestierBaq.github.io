@@ -92,7 +92,12 @@ html{
     font-size: var(--font-size-subtittle);
 } 
 .m-box2{
+    width: 100%;
     color: var(--secondary-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .m-b-f{
     width: 100%;
@@ -104,12 +109,23 @@ html{
     height: 70%;
 }
 .m-box3{
+    width: 100%;
     background-color: var(--secondary-color);
     color: var(--terciary-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .m-box4{
+    width: 100%;
     color: var(--secondary-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .f-menu{
     background-color: var(--secondary-color);
 }
