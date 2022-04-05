@@ -160,14 +160,13 @@ html{
 @media (min-width:640px){
     .main{
         position: relative;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .carousel-item.active div{
         height: 100%;
     }
-    .m-box2, .m-box3{
+    .m-box2, .m-box3, .m-box4{
         width: 70%;
-
     }
 
 }
